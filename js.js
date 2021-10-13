@@ -245,16 +245,3 @@ function confettiToot(particles) {
     shapes: ['circle'],
   });
 }
-
-
-/* Flip Effect
-
-let cards = document.querySelectorAll('.cards');
-
-function flipCard() {
-  this.classList.toggle('flip');
-}
-
-cards.forEach(card => card.addEventListener('click', flipCard));
-
-*/
