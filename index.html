@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Memory Game</title>
+    <link type="text/css" rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/610b2c3642.js" crossorigin="anonymous"></script>
+    <script src="confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <p class="title">Memory Game</p>
+      <div class="score_container">
+        <p>TIME:<span class="timer"><label id="minutes">00</label>:<label id="seconds">00</label></span></p>
+        <div>CLICKS:<span id="clicks_count" class="clicks_counter">0</span></div>
+        <div class="score">SCORE:
+          <span id="star1" class="fas fa-star"></span>
+          <span id="star2" class="fas fa-star"></span>
+          <span id="star3" class="fas fa-star"></span>
+          <span id="star4" class="fas fa-star"></span>
+          <span id="star5" class="fas fa-star"></span>
+        </div>
+        <input class="reset" type="button" value="RESET" onclick="resetGame()"></input>
+      </div>
+      <div class="cards_container">
+        <div class="cards" id="card1" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card2" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card3" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card4" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card5" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card6" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card7" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card8" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card9" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card10" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card11" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card12" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card13" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card14" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card15" onclick="cardClicked(this)"><img></div>
+        <div class="cards" id="card16" onclick="cardClicked(this)"><img></div>
+      </div>
+    </div>
+  </body>
+  <script src="js.js"></script>
+</html>
