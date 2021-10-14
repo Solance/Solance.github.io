@@ -12,7 +12,7 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .title {
@@ -115,5 +115,23 @@ img {
   visibility: visible;
 }
 
-.cards:hover {
+.credit {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: #525252;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #525252;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #308baa;
 }
